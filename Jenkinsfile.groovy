@@ -9,7 +9,7 @@ pipeline{
     stages {
         stage('checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/prabhuhalakeri/New_spring-petclinic-.git', credentialsId: 'github_credentials'
+               git branch: 'Dev', url: 'https://github.com/prabhuhalakeri/Project-1.git', credentialsId: 'github_credentials'
             }
         }
 
